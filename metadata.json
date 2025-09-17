@@ -1,0 +1,5 @@
+{
+  "name": "Scene",
+  "description": "An AI-powered image generation and editing application. Create new visual scenes from text prompts or upload your own images and modify them with AI.",
+  "requestFramePermissions": []
+}

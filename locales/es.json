@@ -1,0 +1,121 @@
+{
+    "header": {
+        "title": "Escena",
+        "subtitle": "Generador de Imágenes y Video con IA"
+    },
+    "mode": {
+        "generate": "Generar",
+        "edit": "Editar",
+        "video": "Video",
+        "search": "Buscar"
+    },
+    "proBadge": {
+        "label": "PRO"
+    },
+    "prompt": {
+        "label": "Tu Prompt",
+        "placeholder": {
+            "generate": "Ej: Toma cinemática de un mapache en una biblioteca, luz tenue...",
+            "edit": "Ej: Añade un sombrero de mago en su cabeza",
+            "video": "Ej: Primer plano de una rosa floreciendo, timelapse",
+            "search": "Ej: El ganador del Gran Premio de Mónaco de F1 2024 celebrando"
+        },
+        "enhanceAriaLabel": "Mejorar Prompt",
+        "surpriseMeAriaLabel": "Sorpréndeme"
+    },
+    "negativePrompt": {
+        "label": "Prompt Negativo (Opcional)",
+        "placeholder": "Ej: texto, marcas de agua, borroso, deformado"
+    },
+    "styleSelector": {
+        "title": "Estilos Predefinidos"
+    },
+    "styles": {
+        "none": "Ninguno",
+        "photorealistic": "Fotorrealista",
+        "fantasy": "Fantasía",
+        "anime": "Anime",
+        "cyberpunk": "Cyberpunk"
+    },
+    "aspectRatio": {
+        "title": "Relación de Aspecto"
+    },
+    "uploader": {
+        "label": {
+            "edit": "Sube una Imagen para Editar",
+            "video": "Sube una Imagen (Opcional)"
+        },
+        "cta": "Haz clic para subir o arrastra y suelta",
+        "fileTypes": "PNG, JPG, WEBP",
+        "removeAriaLabel": "Quitar imagen"
+    },
+    "button": {
+        "generate": "Generar",
+        "edit": "Editar Imagen",
+        "video": "Generar Video",
+        "processing": "Procesando..."
+    },
+    "display": {
+        "placeholder": "Tu contenido generado aparecerá aquí",
+        "loading": "Cargando...",
+        "alt": {
+            "generated": "Imagen generada por IA"
+        },
+        "downloadAriaLabel": "Descargar",
+        "sourcesTitle": "Basado en información de:"
+    },
+    "history": {
+        "title": "Historial",
+        "clear": "Limpiar Historial",
+        "clearConfirm": "¿Estás seguro de que quieres borrar todo tu historial? Esta acción no se puede deshacer.",
+        "videoOutput": "Salida de Video",
+        "deleteAriaLabel": "Eliminar elemento",
+        "copyPromptAriaLabel": "Copiar Prompt"
+    },
+    "error": {
+        "title": "Ocurrió un Error"
+    },
+    "app": {
+        "loading": {
+            "generatingImage": "Generando imagen...",
+            "editingImage": "Aplicando ediciones...",
+            "generatingVideo": "Generando video, esto puede tardar unos minutos...",
+            "restoringHistory": "Restaurando desde el historial...",
+            "searching": "Buscando en la web y generando imagen..."
+        },
+        "errors": {
+            "generic": "Ocurrió un error desconocido.",
+            "noPrompt": "Por favor, introduce un prompt para generar una imagen.",
+            "noImageToEdit": "Por favor, sube una imagen para editar.",
+            "noPromptForEdit": "Por favor, introduce un prompt para describir tu edición.",
+            "noInputForVideo": "Por favor, proporciona un prompt o una imagen para generar un video.",
+            "enhanceFailed": "No se pudo mejorar el prompt.",
+            "surpriseMeFailed": "No se pudo generar un prompt aleatorio.",
+            "proRequired": "Esta es una función Pro. Por favor, actualiza tu plan para continuar."
+        }
+    },
+    "modal": {
+        "closeAriaLabel": "Cerrar"
+    },
+    "upgradeModal": {
+        "title": "Actualizar a Pro",
+        "description": "Desbloquea funciones potentes como la edición de imágenes y la generación de videos para dar vida a tu visión creativa.",
+        "cta": "Actualizar Ahora"
+    },
+    "subscription": {
+        "status": {
+            "pro": "Plan Pro Activo",
+            "free": "Plan Gratuito"
+        },
+        "manage": "Gestionar Suscripción"
+    },
+    "stripe": {
+        "checkoutRedirectNotice": "En una aplicación real, ahora serías redirigido a Stripe para completar tu compra. Esto es una simulación.",
+        "portalRedirectNotice": "En una aplicación real, ahora serías redirigido al Portal del Cliente de Stripe para gestionar tu suscripción."
+    },
+    "toast": {
+        "generationSuccess": "¡Contenido generado con éxito!",
+        "promptCopied": "¡Prompt copiado al portapapeles!",
+        "historyCleared": "El historial ha sido limpiado."
+    }
+}

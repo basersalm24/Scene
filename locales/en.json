@@ -1,0 +1,121 @@
+{
+    "header": {
+        "title": "Scene",
+        "subtitle": "AI-Powered Image & Video Generator"
+    },
+    "mode": {
+        "generate": "Generate",
+        "edit": "Edit",
+        "video": "Video",
+        "search": "Search"
+    },
+    "proBadge": {
+        "label": "PRO"
+    },
+    "prompt": {
+        "label": "Your Prompt",
+        "placeholder": {
+            "generate": "e.g., A cinematic shot of a raccoon in a library, moody lighting...",
+            "edit": "e.g., Add a wizard hat on its head",
+            "video": "e.g., A close-up shot of a blooming rose, timelapse",
+            "search": "e.g., The winner of the 2024 F1 Monaco Grand Prix celebrating"
+        },
+        "enhanceAriaLabel": "Enhance Prompt",
+        "surpriseMeAriaLabel": "Surprise Me"
+    },
+    "negativePrompt": {
+        "label": "Negative Prompt (Optional)",
+        "placeholder": "e.g., text, watermarks, blurry, deformed"
+    },
+    "styleSelector": {
+        "title": "Style Presets"
+    },
+    "styles": {
+        "none": "None",
+        "photorealistic": "Photorealistic",
+        "fantasy": "Fantasy Art",
+        "anime": "Anime",
+        "cyberpunk": "Cyberpunk"
+    },
+    "aspectRatio": {
+        "title": "Aspect Ratio"
+    },
+    "uploader": {
+        "label": {
+            "edit": "Upload Image to Edit",
+            "video": "Upload Image (Optional)"
+        },
+        "cta": "Click to upload or drag & drop",
+        "fileTypes": "PNG, JPG, WEBP",
+        "removeAriaLabel": "Remove image"
+    },
+    "button": {
+        "generate": "Generate",
+        "edit": "Edit Image",
+        "video": "Generate Video",
+        "processing": "Processing..."
+    },
+    "display": {
+        "placeholder": "Your generated content will appear here",
+        "loading": "Loading...",
+        "alt": {
+            "generated": "AI generated image"
+        },
+        "downloadAriaLabel": "Download",
+        "sourcesTitle": "Based on information from:"
+    },
+    "history": {
+        "title": "History",
+        "clear": "Clear History",
+        "clearConfirm": "Are you sure you want to clear your entire history? This action cannot be undone.",
+        "videoOutput": "Video Output",
+        "deleteAriaLabel": "Delete item",
+        "copyPromptAriaLabel": "Copy Prompt"
+    },
+    "error": {
+        "title": "An Error Occurred"
+    },
+    "app": {
+        "loading": {
+            "generatingImage": "Generating image...",
+            "editingImage": "Applying edits...",
+            "generatingVideo": "Generating video, this may take a few minutes...",
+            "restoringHistory": "Restoring from history...",
+            "searching": "Searching the web and generating image..."
+        },
+        "errors": {
+            "generic": "An unknown error occurred.",
+            "noPrompt": "Please enter a prompt to generate an image.",
+            "noImageToEdit": "Please upload an image to edit.",
+            "noPromptForEdit": "Please enter a prompt to describe your edit.",
+            "noInputForVideo": "Please provide a prompt or an image to generate a video.",
+            "enhanceFailed": "Failed to enhance prompt.",
+            "surpriseMeFailed": "Failed to generate a random prompt.",
+            "proRequired": "This is a Pro feature. Please upgrade to continue."
+        }
+    },
+    "modal": {
+        "closeAriaLabel": "Close"
+    },
+    "upgradeModal": {
+        "title": "Upgrade to Pro",
+        "description": "Unlock powerful features like image editing and video generation to bring your creative vision to life.",
+        "cta": "Upgrade Now"
+    },
+    "subscription": {
+        "status": {
+            "pro": "Pro Plan Active",
+            "free": "Free Plan"
+        },
+        "manage": "Manage Subscription"
+    },
+    "stripe": {
+        "checkoutRedirectNotice": "In a real application, you would now be redirected to Stripe to complete your purchase. This is a simulation.",
+        "portalRedirectNotice": "In a real application, you would now be redirected to the Stripe Customer Portal to manage your subscription."
+    },
+    "toast": {
+        "generationSuccess": "Content generated successfully!",
+        "promptCopied": "Prompt copied to clipboard!",
+        "historyCleared": "History has been cleared."
+    }
+}

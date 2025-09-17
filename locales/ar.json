@@ -1,0 +1,121 @@
+{
+    "header": {
+        "title": "مشهد",
+        "subtitle": "مولّد صور وفيديو مدعوم بالذكاء الاصطناعي"
+    },
+    "mode": {
+        "generate": "إنشاء",
+        "edit": "تعديل",
+        "video": "فيديو",
+        "search": "بحث"
+    },
+    "proBadge": {
+        "label": "برو"
+    },
+    "prompt": {
+        "label": "اكتب طلبك",
+        "placeholder": {
+            "generate": "مثال: لقطة سينمائية لراكون في مكتبة، إضاءة هادئة...",
+            "edit": "مثال: أضف قبعة ساحر على رأسه",
+            "video": "مثال: لقطة مقربة لوردة تتفتح، تصوير سريع",
+            "search": "مثال: الفائز بجائزة موناكو الكبرى للفورمولا 1 لعام 2024 يحتفل"
+        },
+        "enhanceAriaLabel": "تحسين الطلب",
+        "surpriseMeAriaLabel": "فاجئني"
+    },
+    "negativePrompt": {
+        "label": "طلب سلبي (اختياري)",
+        "placeholder": "مثال: نصوص، علامات مائية، ضبابي، مشوه"
+    },
+    "styleSelector": {
+        "title": "أنماط محددة مسبقًا"
+    },
+    "styles": {
+        "none": "بدون",
+        "photorealistic": "واقعي",
+        "fantasy": "فنتازيا",
+        "anime": "أنمي",
+        "cyberpunk": "سايبربانك"
+    },
+    "aspectRatio": {
+        "title": "نسبة العرض إلى الارتفاع"
+    },
+    "uploader": {
+        "label": {
+            "edit": "ارفع صورة لتعديلها",
+            "video": "ارفع صورة (اختياري)"
+        },
+        "cta": "انقر للرفع أو اسحب وأفلت",
+        "fileTypes": "PNG, JPG, WEBP",
+        "removeAriaLabel": "إزالة الصورة"
+    },
+    "button": {
+        "generate": "إنشاء",
+        "edit": "تعديل الصورة",
+        "video": "إنشاء فيديو",
+        "processing": "جاري المعالجة..."
+    },
+    "display": {
+        "placeholder": "سيظهر المحتوى الذي تم إنشاؤه هنا",
+        "loading": "جاري التحميل...",
+        "alt": {
+            "generated": "صورة من إنشاء الذكاء الاصطناعي"
+        },
+        "downloadAriaLabel": "تنزيل",
+        "sourcesTitle": "بناءً على معلومات من:"
+    },
+    "history": {
+        "title": "السجل",
+        "clear": "مسح السجل",
+        "clearConfirm": "هل أنت متأكد أنك تريد مسح سجلك بالكامل؟ لا يمكن التراجع عن هذا الإجراء.",
+        "videoOutput": "مخرج الفيديو",
+        "deleteAriaLabel": "حذف العنصر",
+        "copyPromptAriaLabel": "نسخ الطلب"
+    },
+    "error": {
+        "title": "حدث خطأ"
+    },
+    "app": {
+        "loading": {
+            "generatingImage": "جاري إنشاء الصورة...",
+            "editingImage": "جاري تطبيق التعديلات...",
+            "generatingVideo": "جاري إنشاء الفيديو، قد يستغرق هذا بضع دقائق...",
+            "restoringHistory": "جار الاستعادة من السجل...",
+            "searching": "جاري البحث في الويب وإنشاء الصورة..."
+        },
+        "errors": {
+            "generic": "حدث خطأ غير معروف.",
+            "noPrompt": "الرجاء إدخال طلب لإنشاء صورة.",
+            "noImageToEdit": "الرجاء رفع صورة لتعديلها.",
+            "noPromptForEdit": "الرجاء إدخال طلب لوصف تعديلك.",
+            "noInputForVideo": "الرجاء تقديم طلب أو صورة لإنشاء فيديو.",
+            "enhanceFailed": "فشل تحسين الطلب.",
+            "surpriseMeFailed": "فشل إنشاء طلب عشوائي.",
+            "proRequired": "هذه ميزة للمحترفين. يرجى الترقية للمتابعة."
+        }
+    },
+    "modal": {
+        "closeAriaLabel": "إغلاق"
+    },
+    "upgradeModal": {
+        "title": "الترقية إلى برو",
+        "description": "افتح الميزات القوية مثل تعديل الصور وإنشاء الفيديو لتحقيق رؤيتك الإبداعية.",
+        "cta": "الترقية الآن"
+    },
+    "subscription": {
+        "status": {
+            "pro": "خطة برو مفعلة",
+            "free": "الخطة المجانية"
+        },
+        "manage": "إدارة الاشتراك"
+    },
+    "stripe": {
+        "checkoutRedirectNotice": "في تطبيق حقيقي، سيتم الآن توجيهك إلى Stripe لإكمال عملية الشراء. هذه محاكاة.",
+        "portalRedirectNotice": "في تطبيق حقيقي، سيتم الآن توجيهك إلى بوابة عملاء Stripe لإدارة اشتراكك."
+    },
+    "toast": {
+        "generationSuccess": "تم إنشاء المحتوى بنجاح!",
+        "promptCopied": "تم نسخ الطلب إلى الحافظة!",
+        "historyCleared": "تم مسح السجل."
+    }
+}
